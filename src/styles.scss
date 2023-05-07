@@ -1,0 +1,81 @@
+/* You can add global styles to this file, and also import other style files */
+
+/* Importing Bootstrap SCSS file. */
+@import 'bootstrap/scss/bootstrap';
+
+body {
+  // background-color: #EEE;
+}
+
+table {
+  text-transform: capitalize;
+}
+
+.table thead th {
+  background-color: #D9D9D9;
+  font-weight: 400;
+  border: 0;
+
+  &:first-of-type {
+    border-radius: .75rem 0 0 .75rem;
+  }
+
+  &:last-of-type {
+    border-radius: 0 .75rem .75rem 0;
+  }
+}
+
+.table-striped>tbody>tr:nth-of-type(odd)>* {
+  --bs-table-accent-bg: transparent;
+  color: #212529;
+}
+
+.table-striped>tbody>tr:nth-of-type(even)>* {
+  --bs-table-accent-bg: var(--bs-table-striped-bg);
+  color: var(--bs-table-striped-color);
+}
+
+
+.pagination .active>.page-link {
+  background-color: #777 !important;
+}
+
+.pagination .page-item:first-child .page-link {
+  background-color: #EEF0F8 !important;
+}
+
+.pagination {
+  .page-item {
+    :is(&:first-child, &:last-child) .page-link {
+      background-color: #EEF0F8 !important;
+    }
+
+    &.active {
+      .page-link {
+        color: #FFF !important;
+        box-shadow: none;
+        border: 1px solid #B6B6B6;
+      }
+    }
+
+    .page-link {
+      border: none !important;
+      color: #868686 !important;
+
+    }
+  }
+}
+
+.search-input{
+  border-bottom: 1px solid #1E1E1E;
+  .input-group-text{
+    background-color: transparent;
+    border: none;
+  }
+  input.form-control{
+    border: none;
+    &:focus, &:active{
+      box-shadow: none !important;
+    }
+  }
+}

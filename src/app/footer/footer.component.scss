@@ -1,0 +1,18 @@
+footer {
+  background-color: #131313;
+  color: #FFF;
+  ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    padding-left: 1rem;
+    margin-top: 1.5rem;
+    li{
+      font-weight: bold;
+      margin-bottom: 1.5rem;
+    }
+  }
+  .footer-content{
+    padding: 5rem 0;
+  }
+}

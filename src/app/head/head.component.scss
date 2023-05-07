@@ -1,0 +1,24 @@
+.search-btn {
+  background-color: #fada07;
+  color: #2d2d2d;
+  border: none;
+}
+
+.input-group {
+  width: 400px;
+  position: relative;
+  input {
+    border: 2px solid #fada07;
+    border-radius: 17px;
+    &:focus {
+      box-shadow: none;
+      border: 2px solid #fada07;
+    }
+  }
+  .filter-image{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%) translateX(-10px) ;
+    right: 64px;
+  }
+}

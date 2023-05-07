@@ -1,0 +1,100 @@
+<div class="container pb-5 mb-2">
+    <br>
+    <br>
+    <br>
+    <div class=" row">
+    <div class="col-md-9" >
+      <div class="container">
+        <!-- Cart Item-->
+        <div class="row cart-item" *ngFor="let p of [1,2,1]">
+            <div class="px-3 my-3 col-md-9">
+                <a class="cart-item-product" href="#">
+                    <div class="cart-item-product-thumb"><img src="	https://www.freeiconspng.com/uploads/no-image-icon-6.png" alt="Product"></div>
+                    <div class="cart-item-product-info">
+                      <span><strong>Name :</strong> Mirrorless</span><span><strong>Color : </strong>  
+                      <span style="position: absolute;
+                        width: 18.11px;
+                        height: 18px;
+                        background: #181818;
+                        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+                        border-radius: 50%;margin: 0 5px;"></span></span> 
+                        <span><strong>Size :</strong> 200*200</span>  
+                        <span style="font-size: 11px;line-height: 13px;color: #A2A2A2;">
+                          Lorem ipsum dolor sit amet, cum sapientem hkjnfuhg olslme                       </span>
+                    </div>
+                    
+                </a>
+                
+            </div>
+           
+            <div class="col-md-3">
+                <div class="px-3 my-3 text-end">
+                <i class="bi bi-trash3-fill"></i></div>
+
+            <div class="px-3 my-3 text-end">
+                <div class="count-input">
+                  <div class="cart-item-label text-center">QTY</div>
+                    <select class="form-control">
+                        <option>1</option>
+                        <option>2</option>
+                        <option>3</option>
+                        <option>4</option>
+                        <option>5</option>
+                        <option>6</option>
+                    </select>
+                </div>
+            </div>
+            <!-- <div class="px-3 my-3 text-center">
+                <div class="cart-item-label">Subtotal</div><span class="text-xl font-weight-medium">$910.00</span>
+            </div> -->
+            <!-- <div class="px-3 my-3 text-center">
+                <div class="cart-item-label">Discount</div><span class="text-xl font-weight-medium">$35.00</span>
+            </div> -->
+          </div>
+        </div>
+        
+    
+    
+           
+        </div>
+    </div>
+    <div class="col-md-3">
+    <div class="ibox">
+    
+    <div class="ibox-content">
+      <div class="ibox-title pt-3">
+        <h5>ORDER</h5>
+        </div> 
+            <div class="row"><br>
+              <span class="col-md-6">Items : 3</span>
+              <span class="col-md-6">$39,0</span>
+            </div>
+            <div class="row">
+              <span class="col-md-6">shipping</span>
+              <span class="col-md-6">$39,0</span>
+            </div>
+             <hr> 
+             <div class="row">
+              <strong class="col-md-6">Total</strong>
+              <span class="col-md-6">$39,0</span>
+            </div>
+    
+    
+    
+    </div>
+    </div>
+    
+    </div>
+    </div>
+  
+  
+  
+  
+    <h3 class="mb-3">Featured</h3>
+  <div class="row">
+    <div class="col-md-3" *ngFor="let p of [1,2,1,2]">
+      <app-product-card src="../../../assets/product-{{p}}.png"></app-product-card>
+    </div>
+  </div>
+  
+  </div>

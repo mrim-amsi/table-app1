@@ -1,0 +1,28 @@
+.style-head p{
+    /* font-family: 'Cairo'; */
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 26px;
+    text-align: center;
+    color: #000000;
+}
+.style-head button{
+    background: #FADA07;
+    /* font-family: 'Cairo'; */
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 26px;
+    text-align: center;
+    color: #535353;
+    border-radius: 5px;
+    width: 100%;
+    border: none;
+    padding: 6px 0;
+    transition: 0.3s;
+}
+.style-head button:hover{
+    background: #b8a004;
+    color: #fff;
+}

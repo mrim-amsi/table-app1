@@ -1,0 +1,36 @@
+.ul-side a{
+text-decoration: none;
+/* font-family: 'Cairo'; */
+font-style: normal;
+font-weight: 700;
+font-size: 17px;
+line-height: 26px;
+transition: 0.3s;
+color: #000000;
+padding-left: 5px;
+}
+.ul-side li{
+    list-style: none;
+    height: 36px;
+    margin-bottom: 20px;
+    transition: 0.3s;
+}
+.ul-side li a:hover{
+    background: #FFE642;
+    border-radius: 10px;
+    color: #535353;
+  padding:10px 20px 10px 10px;
+}
+.ul-side a span{
+color: #fff;
+border-radius: 50%;
+background-color: #FA0707;
+padding: 0 9px;
+margin-left: 5px;
+ }
+ .ul-side li .active{
+    background: #FFE642;
+    border-radius: 10px;
+    color: #535353;
+  padding:10px 20px 10px 10px;
+ }
