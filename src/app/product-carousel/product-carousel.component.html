@@ -1,0 +1,40 @@
+<div class="container">
+    <div class="row">
+        <div class="col-md-12">
+            <h2>Trending <b>Products</b></h2>
+            <div id="myCarousel" class="carousel slide" data-ride="carousel" data-interval="0">
+            <!-- Carousel indicators -->
+            <ol class="carousel-indicators">
+                <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                <li data-target="#myCarousel" data-slide-to="1"></li>
+                <!-- <li data-target="#myCarousel" data-slide-to="2"></li> -->
+            </ol>   
+            <!-- Wrapper for carousel items -->
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <div class="row">
+                        <div class="col-md-3" *ngFor="let p of [1,2,1,2]">
+                          <app-product-card src="../../../assets/product-{{p}}.png"></app-product-card>
+                        </div>
+                      </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="row">
+                        <div class="col-md-3" *ngFor="let p of [2,1,2,1]">
+                          <app-product-card src="../../../assets/product-{{p}}.png"></app-product-card>
+                        </div>
+                      </div>
+                </div>
+               
+            </div>
+            <!-- Carousel controls -->
+            <a class="carousel-control-prev" href="#myCarousel" data-slide="prev">
+                <i class="fa fa-angle-left"></i>
+            </a>
+            <a class="carousel-control-next" href="#myCarousel" data-slide="next">
+                <i class="fa fa-angle-right"></i>
+            </a>
+        </div>
+        </div>
+    </div>
+</div>

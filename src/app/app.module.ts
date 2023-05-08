@@ -11,6 +11,7 @@ import { HeadComponent } from './head/head.component';
 import { DitalsComponent } from './ditals/ditals.component';
 import { CartComponent } from './cart/cart.component';
 import { ProductCardComponent } from './product-card/product-card.component';
+import { ProductCarouselComponent } from './product-carousel/product-carousel.component';
 
 @NgModule({
   declarations: [
@@ -20,6 +21,7 @@ import { ProductCardComponent } from './product-card/product-card.component';
     DitalsComponent,
     CartComponent,
     ProductCardComponent,
+    ProductCarouselComponent,
    ],
   imports: [
     BrowserModule,
