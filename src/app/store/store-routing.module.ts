@@ -2,6 +2,8 @@ import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 import { TablePageComponent } from './components/table-page/table-page.component';
 import { DitalsComponent } from '../ditals/ditals.component';
+import { PaymentComponent } from '../payment/payment.component';
+import { PaymentMethodComponent } from '../payment-method/payment-method.component';
 
 const routes: Routes = [
   {
