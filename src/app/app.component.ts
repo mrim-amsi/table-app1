@@ -10,8 +10,11 @@ import { TitleServiceService } from './title-service.service';
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent  implements OnInit{
+  page = 1;
+  pageSize = 13;
+  title='';
   constructor(public titleService:TitleServiceService) {
-      }
+  }
   ngOnInit(): void {
     this.titleService.title="Invoice";
   }
