@@ -15,7 +15,7 @@ const routes: Routes = [
       loadChildren:()=> import('./store/store.module').then(m =>m.StoreModule)
   },{
   path:'cart',
-component:CartComponent},{
+  component:CartComponent},{
   path:'Payment',
   component:PaymentComponent
 },{

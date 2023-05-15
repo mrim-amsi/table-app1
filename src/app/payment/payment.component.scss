@@ -600,7 +600,7 @@
             width: 100%;
             min-width: unset;
             border-radius: 5px;
-            background-color: rgba(221, 228, 236, 0.301);
+             background-color:#e7eaec;
             border-color: rgba(221, 228, 236, 0.459);
             margin: 2vh 0;
             overflow: hidden;
@@ -651,7 +651,7 @@
             width: 100%;
             min-width: unset;
             border-radius: 5px;
-            background-color: rgba(221, 228, 236, 0.301);
+            background-color: #e7eaec;
             border-color: rgba(221, 228, 236, 0.459);
             margin: 2vh 0;
             width: fit-content;
@@ -694,3 +694,7 @@
         input:focus:-ms-input-placeholder { 
             color:transparent; 
         }
+        a {
+          text-decoration: none !important;
+        }
+       
