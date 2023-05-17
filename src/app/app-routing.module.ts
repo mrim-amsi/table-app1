@@ -14,13 +14,16 @@ const routes: Routes = [
       path: 'store',
       loadChildren:()=> import('./store/store.module').then(m =>m.StoreModule)
   },{
-  path:'cart',
+  path:'Cart',
   component:CartComponent},{
   path:'Payment',
   component:PaymentComponent
 },{
   path:'PaymentMethod',
   component:PaymentMethodComponent
+},{
+  path:'NewPayment',
+  component:PaymentComponent
 }
 ];
 

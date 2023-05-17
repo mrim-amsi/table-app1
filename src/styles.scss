@@ -2,11 +2,23 @@
 
 /* Importing Bootstrap SCSS file. */
 @import 'bootstrap/scss/bootstrap';
+@import "bootstrap-icons/font/bootstrap-icons";
 
 body {
   // background-color: #EEE;
 }
-
+.container{
+padding:0 5%;
+}
+h2{
+width: 206px;
+    height: 64px;
+    font-family: 'Cairo';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 34px;
+    line-height: 64px;
+    color: #1C1C1C;}
 table {
   text-transform: capitalize;
 }

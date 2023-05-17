@@ -1,4 +1,4 @@
-<nav class="navbar navbar-expand-lg bg-body-white shadow">
+<nav class="navbar fixed-top navbar-light bg-light navbar-expand-lg bg-body-white shadow">
     <div class="container">
       <a class="navbar-brand" href="#"><img src="../../../assets/logo-sm.svg" /></a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
@@ -55,19 +55,28 @@
               <a class="nav-link " aria-current="page" href="#"><i class="bi bi-file-earmark-text-fill"></i></a>
             </li>
             <li class="nav-item mx-2">
-              <a class="nav-link " aria-current="page" routerLink="/cart"><i class="bi bi-cart-dash-fill"></i></a>
+              <a class="nav-link " aria-current="page" routerLink="/Cart"><i class="bi bi-cart-dash-fill"></i></a>
             </li>
             
           </ul>
           <div class="dropdown">
-            <button class="btn btn-light   dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+            <button class="btn btn-light dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
               <img src="../../../assets/person.png" width="40" />
               Profile
-            </button>
-            <ul class="dropdown-menu">
-              <li><a class="dropdown-item" href="#">My Profile</a></li>
-            </ul>
+             </button>
+            <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+              
+                <li style="border-bottom: 1px solid black;"><a class="dropdown-item" href="#">My Profile</a></li>
+                <li><a class="dropdown-item" routerLink="store/home/invoice" >Invoice</a></li>
+                <li><a class="dropdown-item" routerLink="/store/home/orders">Orders</a></li>
+                <li><a class="dropdown-item" routerLink="/store/home/payments">Payments</a></li>
+                <li><a class="dropdown-item" href="#">Notifications</a></li>
+              
+            </div>
           </div>
+
+
+          
         </div>
       </div>
     </div>

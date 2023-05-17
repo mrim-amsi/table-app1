@@ -1,6 +1,5 @@
 <div class="container pb-5 mb-2">
-    <br>
-    <br>
+
     <h2 class="mb-3">Cart</h2>
 <hr>
     <br>
@@ -8,7 +7,7 @@
     <div class="col-md-8" >
       <div class="container">
         <!-- Cart Item-->
-        <div class="row cart-item" *ngFor="let p of [1,2,1]">
+        <div style="border: 1px solid #9d9d9d;" class="row cart-item" *ngFor="let p of [1,2,1]">
             <div class="px-3 my-3 col-md-9">
                 <a class="cart-item-product" href="#">
                     <div class="cart-item-product-thumb"><img src="	https://www.freeiconspng.com/uploads/no-image-icon-6.png" alt="Product"></div>
@@ -36,7 +35,7 @@
             <div class="px-3 my-3 text-end">
                 <div class="count-input">
                   <div class="cart-item-label text-center">QTY</div>
-                    <select class="form-control">
+                  <i class="bi bi-caret-down-fill" style="position: absolute; margin-left: -28px; margin-top: 5px;"></i><select class="form-control">
                         <option>1</option>
                         <option>2</option>
                         <option>3</option>
@@ -63,7 +62,7 @@
     <div class="col-md-3">
     <div class="ibox">
     
-    <div class="ibox-content">
+    <div class="ibox-content"style="border: 1px solid #9d9d9d;" >
       <div class="ibox-title pt-3">
         <h5>ORDER</h5>
         </div> 
